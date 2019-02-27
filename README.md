@@ -16,6 +16,7 @@ Credits:
  * [**AospExtended**](https://github.com/AospExtended)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
+ * [**linusdan**](https://github.com/linusdan) Fork contributor
 
 -----------------------------------------------------------------------------
 
