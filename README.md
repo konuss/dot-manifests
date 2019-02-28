@@ -16,7 +16,8 @@ Credits:
  * [**AospExtended**](https://github.com/AospExtended)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
- * [**Dan Santos**](https://github.com/linusdan) - Fork contributor
+ * [**Shakthivel Nadar**](https://github.com/Sonic-sakthivel123) - Builder
+ * [**Dan Santos**](https://github.com/linusdan) - Developer/Fork contribuitor of dotOS for i9300
  * [**Shilin Victor**](https://github.com/ChronoMonochrome) - Developer of Lineage 15.1/16.0 for i9300
 
 -----------------------------------------------------------------------------
