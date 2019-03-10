@@ -6,17 +6,8 @@
 
   <!-- Removals -->
   <remove-project name="android_build" />
-  <!--remove-project name="android_bionic" /-->
   <remove-project name="android_vendor_dot" />
-  <!--remove-project name="android_system_core" />
-  <remove-project name="android_build_soong" /-->
-  <remove-project name="android_system_vold" />   
-  <!--remove-project name="android_frameworks_av" />
-  <remove-project name="android_system_sepolicy" /-->     
-  <remove-project name="android_frameworks_base" />
-  <!--remove-project name="android_frameworks_native" />
-  <remove-project name="android_hardware_libhardware" />
-  <remove-project name="android_device_dot_sepolicy" /-->
+  <remove-project name="android_system_vold" />
 
   <!-- build -->      
   <project path="build/make" name="dot-i9300/android_build" remote="github" revision="dot-p" >
@@ -27,13 +18,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project> 
-   
-   <!-- build/soong -->
-  <!--project path="build/soong" name="dot-i9300/android_build_soong" groups="pdk,tradefed" remote="github" revision="dot-p" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project-->
+  </project>
 
         
   <!-- Device -->
@@ -48,15 +33,7 @@
   <project name="CustomROMs/android_vendor_samsung_i9300" path="vendor/samsung/i9300" remote="github" revision="lineage-16.0" />
 
   <!-- Extras -->
-  <!--project name="dot-i9300/android_bionic" path="bionic" remote="github" revision="dot-p" /-->
-  <project name="dot-i9300/android_vendor_dot" path="vendor/dot" remote="github" revision="dot-p" />
-  <!--project name="dot-i9300/android_system_core" path="system/core" remote="github" revision="dot-p" /-->   
+  <project name="dot-i9300/android_vendor_dot" path="vendor/dot" remote="github" revision="dot-p" />  
   <project name="dot-i9300/android_system_vold" path="system/vold" remote="github" revision="dot-p" />
-  <!--project name="dot-i9300/android_frameworks_av" path="frameworks/av" remote="github" revision="dot-p" /-->
-  <project name="dot-i9300/android_frameworks_base" path="frameworks/base" remote="github" revision="dot-p" />
-  <!--project name="dot-i9300/android_system_sepolicy" path="system/sepolicy" remote="github" revision="dot-p" /-->
   <project name="dot-i9300/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-p" />
-  <!--project name="dot-i9300/android_frameworks_native" path="frameworks/native" remote="github" revision="dot-p" />
-  <project name="dot-i9300/android_device_dot_sepolicy" path="device/dot/sepolicy" remote="github" revision="dot-p" />
-  <project name="dot-i9300/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="dot-p" /--> 
 </manifest>
