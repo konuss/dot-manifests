@@ -7,7 +7,6 @@
   <!-- Removals -->
   <remove-project name="android_build" />
   <remove-project name="android_vendor_dot" />
-  <remove-project name="android_system_vold" />
   <remove-project name="android_frameworks_native" />      
 
   <!-- build -->      
@@ -34,8 +33,7 @@
   <project name="CustomROMs/android_vendor_samsung_i9300" path="vendor/samsung/i9300" remote="github" revision="lineage-16.0" />
 
   <!-- Extras -->
-  <project name="dot-i9300/android_vendor_dot" path="vendor/dot" remote="github" revision="dot-p" />  
-  <project name="dot-i9300/android_system_vold" path="system/vold" remote="github" revision="dot-p" />
+  <project name="dot-i9300/android_vendor_dot" path="vendor/dot" remote="github" revision="dot-p" />
   <project name="dot-i9300/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-p" />
   <project name="dot-i9300/android_frameworks_native" path="frameworks/native" remote="github" revision="dot-p" />      
   <project name="dot-i9300/packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="pie" />
