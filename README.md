@@ -21,6 +21,9 @@ Credits:
  * [**Shilin Victor**](https://github.com/ChronoMonochrome) - Developer of Lineage 15.1/16.0 for i9300
 
 -----------------------------------------------------------------------------
+Warning!:
+==========
+Do not use these sources without our consent, if an thread is posted on XDA and you use our sources, you will be reported to moderators of XDA!
 
 Getting Started:
 ==============
