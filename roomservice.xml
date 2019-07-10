@@ -22,5 +22,4 @@
   <project name="dot-i9300/android_vendor_dot" path="vendor/dot" remote="github" revision="dot-p" />
   <project name="dot-i9300/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-p" />
   <project name="linusdan/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="lineage-16.0" />      
-  <project name="dot-i9300/android_frameworks_base" path="frameworks/base" remote="github" revision="dot-p" />
 </manifest>
