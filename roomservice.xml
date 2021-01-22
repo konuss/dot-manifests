@@ -3,23 +3,18 @@
 
 <remote name="github"
         fetch="https://github.com/" />       
-
-  <!-- Removals -->
-  <remove-project name="android_vendor_dot" />
-        
+   
   <!-- Device -->
-  <project name="dot-i9300/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="dot-p" />
-  <project name="dot-i9300/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="dot-p" />
+  <project name="konuss/dot-android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="dot-p" />
+  <project name="konuss/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="dot-p" />
 
   <!-- Kernel -->
-  <project name="team-infusion-developers/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
+  <project name="ChronoMonochrome/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
   <project name="CustomROMs/android_vendor_samsung_i9300" path="vendor/samsung/i9300" remote="github" revision="lineage-16.0" />  
   <project name="CustomROMs/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" remote="github" revision="lineage-16.0" />
 
   <!-- Extras -->
-  <project name="dot-i9300/android_vendor_dot" path="vendor/dot" remote="github" revision="dot-p" />
-  <project name="dot-i9300/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-p" />
-  <project name="linusdan/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="lineage-16.0" />      
+  <project name="konuss/dot-android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-p" />    
 </manifest>
