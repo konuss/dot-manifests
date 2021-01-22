@@ -34,7 +34,7 @@ To initialize your local repository, use a command like this:
 
 ```bash
     repo init -u git://github.com/DotOS/manifest.git -b dot-p
-    git clone https://github.com/dot-i9300/dot-manifests.git -b dot-p-alpha .repo/local_manifests
+    git clone https://github.com/konuss/dot-manifests.git -b dot-p-alpha .repo/local_manifests
 ```
 
 Then to sync up:
